@@ -1,0 +1,97 @@
+:root {
+    --blackColor: #000;
+    --whiteColor: #fff;
+    /* --grayColor: #DFDFDF; */
+    --grayColor: #b1b0b0;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hamburger{
+    display: none;
+    background: transparent;
+    border: none;
+}
+.cross{
+    display: none;
+}
+.navBar {
+    height: 76px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.logoImg {
+    width: 170px;
+    height: 16px;
+    list-style: none;
+}
+.centerList{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    /* text-decoration: none; */
+    color: var(--blackColor);
+
+}
+.navBarList{
+    color: var(--blackColor);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.navBarList:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.rightNav{
+    border: 2px solid;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    /* height: 45px;
+    width: 150px; */
+    padding: 10px 30px;
+    font-size: 12px;
+    word-spacing: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* padding: 2vh; */
+}
+.rightNav:hover{
+    border: var(--grayColor);
+    color: var(--blackColor);
+    background-color: var(--grayColor);
+    cursor: pointer;
+}
+
+
+/* TAB  */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* FOR MOBILE  */
+@media screen and (max-width: 600px){
+    .hamburger{
+        display: block;
+    }
+    .centerList,.rightNav{
+        display: none;
+    }
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}

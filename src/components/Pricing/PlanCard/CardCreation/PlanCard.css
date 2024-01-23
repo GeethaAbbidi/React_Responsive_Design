@@ -1,0 +1,103 @@
+.priceflex{
+    display: flex;
+    flex-direction: column;
+}
+.gradient{
+    height: 8px;
+    width: 360px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+.planCardLight{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 56px 48px;
+    align-items: center;
+    background-color: var(--lightColor);
+}
+.planCardDark{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 74px 48px;
+    align-items: center;
+    color: var(--whiteColor);
+    background-color: var(--blackColor);
+}
+.priceCard h2{
+    font-size: 38px;
+}
+.priceCard p{
+    font-size: 14px;
+    opacity: 0.6;
+    text-align: center;
+}
+.centerPlanCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centerPlanCard h1{
+    font-size: 42px;
+    font-weight: bolder;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+}
+.planButtonLight{
+    height: 40px;
+    width: 264px;
+    color: var(--whiteColor);
+    background-color:var(--blackColor) ;
+    font-size: 12px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.planButtonDark{
+    height: 40px;
+    width: 264px;
+    font-size: 12px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.planButtonLight:hover,.planButtonDark:hover{
+    background-color: #cfcece;
+    border: none;
+    color: var(--blackColor);
+}
+/* .planButtonDark:hover{
+    background-color: #cfcece;
+    border: none;
+    color: var();
+} */
+
+@media screen and (max-width: 600px){
+    .priceflex{
+        margin: 12px;
+    }
+    .gradient{
+        height: 8px;
+        width: 300px;
+    }
+    .planCardLight{
+        gap: 18px;
+        /* padding: 15px 28px; */
+        padding: 14px 0px;
+    }
+    /* .planCardDark{
+        gap: 18px;
+        padding: 14px 0px;
+    } */
+    .planCardDark{
+        gap: 14px;
+        padding: 14px 0px;
+    }
+    .priceCard h2{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .centerPlanCard h1{
+        font-size: 24px;
+    }
+}

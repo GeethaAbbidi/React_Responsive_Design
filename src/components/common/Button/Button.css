@@ -1,0 +1,55 @@
+.mainButton {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    padding: 1vh;
+}
+
+.whiteButton {
+    background: transparent;
+    border: none;
+    color: var(--whiteColor);
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.blackButton {
+    background: transparent;
+    border: none;
+    color: var(--blackColor);
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.whiteButton:hover,
+.blackButton:hover {
+    text-decoration: underline;
+}
+
+
+.buttonArrow {
+    font-size: 32px;
+    /* margin-top: -3px; */
+}
+
+.readButton {
+    /* color: white; */
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonTxt {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}

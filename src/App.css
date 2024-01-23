@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300&display=swap');
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  /* font-family: 'DM Sans', sans-serif; */
+}
+:root{
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #b1b0b0;
+  --lightGray:#9d9b9b;
+  --lightColor: #F5F5F5;
+}

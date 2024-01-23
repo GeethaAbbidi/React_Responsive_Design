@@ -1,0 +1,102 @@
+.card {
+   height: 500px;
+   /* border: 2px solid red; */
+}
+
+.card:hover {
+   margin-top: -25px;
+   cursor: pointer;
+   height: 504px;
+   background: linear-gradient(90deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+   /* background: linear-gradient(to bottom, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%); */
+
+}
+
+.cardContainer {
+   position: relative;
+}
+
+.cardContainer img {
+   height: 500px;
+   width: 100%;
+}
+
+.cardHeading {
+   font-size: 18px;
+   font-weight: 700;
+   color: var(--whiteColor);
+}
+
+.cardText {
+   font-size: 12px;
+   color: var(--whiteColor);
+   opacity: 0.6;
+}
+
+.cardDescription {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   position: absolute;
+   bottom: 28px;
+   left: 10px;
+   width: 90%;
+}
+
+.cardInfo {
+   height: 60px;
+   width: 90%;
+   margin: 0 auto;
+   border-bottom: 1px solid var(--lightGray);
+   padding-bottom: 60px;
+}
+
+.readButton {
+   color: var(--whiteColor);
+}
+
+@media screen and (max-width: 600px) {
+   .cardContainer {
+      position: absolute;
+   }
+
+   .card {
+      /* width: 375px; */
+      height: 375px;
+   }
+   .cardContainer img{
+      /* width: 375px; */
+      width: 318px;
+      height: 375px;
+   }
+}
+
+/* import React from 'react'
+import { assets } from '../../../assets/assets'
+import './Footer.css'
+
+const Footer = () => {
+  return (
+    <div className='footer'>
+      <div className='leftFooter'>
+        <div className='fotterLogos'>
+          <img src={assets.pngAssets.footerLogo} alt="" />
+          <img src={assets.pngAssets.footerLogos} alt="" />
+        </div>
+        <div className='footerList'>
+          <p>HOME</p>
+          <p>STORIES</p>
+          <p>FEATURES</p>
+          <p>PRICING</p>
+        </div>
+      </div>
+
+      <div className='rightFooter'>
+
+      </div>
+    </div>
+  )
+}
+
+export default Footer */

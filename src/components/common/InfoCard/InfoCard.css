@@ -1,0 +1,44 @@
+.infoCard {
+    margin: 17px auto;
+    padding: 14px 48px;
+}
+
+.cardInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    line-height: 24px;
+    cursor: pointer;
+}
+.cardInformation img {
+    height: 80px;
+    width: 80px;
+    padding-bottom: 20px;
+}
+
+.mainText {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subText {
+    text-align: center;
+    color: var(--blackColor);
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+
+    .infoCard {
+        margin: 24px auto;
+        padding: 10px 10px 0px 10px;
+
+    }
+    .cardInformation {
+        gap: 24px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+}

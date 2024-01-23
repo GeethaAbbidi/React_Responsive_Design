@@ -1,0 +1,20 @@
+/* .homeInfoCard{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0 12%;
+} */
+.homeInfoCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 52px 50px;
+}
+@media screen and (max-width: 600px) {
+    .homeInfoCard{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin: 0;
+    }
+}
+

@@ -1,0 +1,14 @@
+.storyCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .storyCard {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

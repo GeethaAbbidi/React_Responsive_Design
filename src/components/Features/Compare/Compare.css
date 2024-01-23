@@ -1,0 +1,27 @@
+.compareInformation{ 
+    
+    /* display: flex;
+    float: row;
+    gap: 80px; */
+    /* justify-content: space-around; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.darkLine{
+    border-bottom: 1px solid ;
+    padding-bottom: 10px 0px; 
+}
+.line{
+    border-bottom: 1px solid ;
+    padding-bottom: 10px 0px;
+    opacity: 0.5;
+}
+.compareTable{
+    width: 60%;
+    text-align: -webkit-center;
+    
+}

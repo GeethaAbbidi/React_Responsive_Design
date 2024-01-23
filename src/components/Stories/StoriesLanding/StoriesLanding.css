@@ -1,0 +1,75 @@
+.storiesImg{
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+}
+.StoriesContainer{
+    position: relative;
+    height: 640px;
+}
+.StoryContent{
+    /* border: 2px solid; */
+    width: 28%;
+    padding: 120px 40px;
+    margin-left: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 10px;
+}
+.StoryContent{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--whiteColor);
+    font-weight: 600;
+    opacity: 0.8;
+}
+.StoriesHeading{
+    color: var(--whiteColor);
+    font-size: 42px;
+    font-weight: bolder;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+.StoriesText{
+    color: var(--whiteColor);
+    font-size: 14px;
+    font-weight: 200;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    opacity: o.8;
+}
+
+
+@media screen and (max-width: 600px) {
+    .storiesImg{
+        height: 300px;
+    }
+    .StoriesContainer{
+        height: 740px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--blackColor);
+    }
+    .StoryContent{
+        width: 100%;
+        padding: 20px;
+        margin-left: 0px;
+        gap: 8px;
+        position: absolute;
+        top: 320px;
+    }
+    .StoriesHeading{
+        font-size: 28px;
+        letter-spacing: 4px;
+        line-height: 34px;
+        word-spacing: 0;
+    }
+    .StoriesText{
+        opacity: 1;
+        font-weight: 200;
+    }
+}
